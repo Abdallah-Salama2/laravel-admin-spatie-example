@@ -1,5 +1,3 @@
-
-```markdown
 # Spatie Permission & Roles Basics
 
 This project provides a basic setup for using Spatie's Laravel Permissions and Roles package.

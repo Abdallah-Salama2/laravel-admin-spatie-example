@@ -3,10 +3,16 @@
 This project provides a basic setup for using Spatie's Laravel Permissions and Roles package.
 
 ## Getting Started
-
-Before running the project, make sure to run the following command to set up the database tables with sample data:
-
+Before running the project, make sure to run the following commands to set up the database tables with sample data:
 ```bash
+cd laravel-admin-spatie-example
+
+composer install
+
+cp .env.example .env
+
+php artisan key:generate
+
 php artisan migrate:fresh --seed
 ```
 

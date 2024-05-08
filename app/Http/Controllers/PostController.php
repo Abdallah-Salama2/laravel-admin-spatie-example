@@ -17,12 +17,11 @@ class PostController extends Controller
         return view('dashboard',compact('posts'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
+
+    public function About()
     {
         //
+        return view('about');
     }
 
     /**

@@ -52,18 +52,18 @@ class PostController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Request $request, $postId)
-    {
-        // Fetch the post using the provided ID
-        dd($postId);
-        $post = Post::findOrFail($postId);
-
-        // Update the post's title
-        $post->title = $request->title;
-        $post->save();
-
-        return redirect(route('dashboard'))->with('message', 'Post has successfully been updated.');
-    }
+//    public function edit(Request $request, $postId)
+//    {
+//        // Fetch the post using the provided ID
+//        dd($postId);
+//        $post = Post::findOrFail($postId);
+//
+//        // Update the post's title
+//        $post->title = $request->title;
+//        $post->save();
+//
+//        return redirect(route('dashboard'))->with('message', 'Post has successfully been updated.');
+//    }
 
     /**
      * Update the specified resource in storage.

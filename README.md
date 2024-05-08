@@ -1,6 +1,7 @@
 # Spatie Permission & Roles Basics
 
 This project provides a basic setup for using Spatie's Laravel Permissions and Roles package.
+Preferable to use Admin account to see the features.
 
 ## Getting Started
 Before running the project, make sure to run the following commands to set up the database tables with sample data:
